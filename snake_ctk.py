@@ -243,7 +243,7 @@ def build_ui():
     btn("↑", 0, 1, lambda: change_direction("Up"))
     btn("←", 1, 0, lambda: change_direction("Left"))
     btn("→", 1, 2, lambda: change_direction("Right"))
-    btn("↓", 2, 1, lambda: change_direction("Down"))
+    btn("↓", 1, 1, lambda: change_direction("Down"))
 
     # dodatne kontrole
     ctk.CTkButton(right, text="Restart (R)", command=restart_game).pack(pady=(18, 6))
